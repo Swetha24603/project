@@ -47,9 +47,9 @@ The dataset used for this project can be found at Kaggle
 ## Conclusion
 This project successfully explored key aspects of Udemy courses, focusing on ratings, pricing, and category distribution. The analysis revealed important insights, such as the relationship between course price and ratings, as well as trends in course offerings. Visualizations like bar charts, scatter plots, and heatmaps enhanced the understanding of the data. These findings provide actionable recommendations for content creators and marketers to optimize course strategies. Future analyses could incorporate advanced predictive models or deeper segmentation for more tailored insights.
 ## References
-#### Dataset: Udemy Courses Dataset created and curated by Swetha.
+#### **Dataset**: Udemy Courses Dataset from Kaggle.
 #### Tools & Libraries Used:
-- Python Libraries: Pandas, Matplotlib, Seaborn, NumPy
+- Python Libraries: Pandas, Matplotlib, Seaborn
 - Jupyter Notebooks for interactive analysis
   
 
