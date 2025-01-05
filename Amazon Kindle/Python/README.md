@@ -123,4 +123,12 @@ plt.show()
 engine = create_engine(f'postgresql+psycopg2://{username}:{password}@{host}:{port_id}/{database_name}')
 ```
 * **create_engine**: Defines the connection string for the database.
+## Conclusion 
+This project successfully demonstrates an end-to-end data analytics workflow using Python as the primary tool for data preprocessing, analysis, and preparation for database integration. Key accomplishments include:
+     * Data Exploration and Cleaning
+     * Data Visualization
+     * Database Integration
+## Next Phase
+* **SQL Querying**: Use SQL to extract deeper insights and perform advanced data manipulations on the stored data.
+* **Power BI Visualization**: Create an interactive dashboard to present the findings in an engaging and user-friendly format.
 
