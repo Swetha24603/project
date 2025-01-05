@@ -90,6 +90,7 @@ plt.xlabel('Rating')
 plt.ylabel('Frequency')
 plt.show()
 ```
+![Untitled](https://github.com/user-attachments/assets/9661a64d-662f-477f-b76a-72c67624a40c)
 * **sns.histplot**: Creates a histogram with an optional Kernel Density Estimate (KDE) curve.
 * Adds titles and axis labels to enhance interpretability.
 ```
@@ -102,6 +103,7 @@ plt.ylabel('Count')
 plt.xticks(rotation=60,ha='right')
 plt.show()
 ```
+![Untitled1](https://github.com/user-attachments/assets/510736b5-016f-45e1-84fe-6c9fc30dfae1)
 * **sns.barplot**(x=category_counts.index, y=category_counts.values, palette='magma'): Creates a bar plot with categories on the x-axis and their counts on the y-axis, using the 'magma' color palette.
  ```
 year_price = df.groupby('published_year')['stars'].mean().reset_index()
@@ -114,6 +116,7 @@ plt.ylabel('Average Rating')
 plt.xticks(year_price['published_year'])
 plt.show()
 ```
+![Untitled2](https://github.com/user-attachments/assets/9985d993-24e0-4358-a65e-2e622b5e0a48)
 * Groups data by published_year, calculates the mean rating, and visualizes the top 5 years with a line plot, highlighting trends in average ratings.
 ### Connecting to Postgresql
 ```
